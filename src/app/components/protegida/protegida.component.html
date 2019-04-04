@@ -1,0 +1,15 @@
+<div class="card" style="width: 18rem;">
+  <img [src]="profile?.picture" class="card-img-top" alt="avatar" />
+  <div class="card-body">
+    <h5 class="card-title">{{ profile?.name }}</h5>
+    <p class="card-text">
+      <b>Last Update</b>
+      <br />
+      {{ profile?.updated_at | date: short }}
+    </p>
+  </div>
+</div>
+
+<pre>
+  {{ profile | json }}
+</pre>
