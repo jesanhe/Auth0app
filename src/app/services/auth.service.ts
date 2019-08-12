@@ -15,7 +15,7 @@ export class AuthService {
     clientID: 'rQTDLt5IkjQx07AD6Q079M0ZezfWbDFE',
     domain: 'dev-8e0jgqd1.eu.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'http://localhost:4200/callback',
     scope: 'openid profile',
   });
 
